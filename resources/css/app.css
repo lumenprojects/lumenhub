@@ -1,0 +1,18 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply font-sans;
+    }
+    .left-21_5 {
+        left: calc(21.5% - 0.5px);
+    }
+    .left-78_5 {
+        left: calc(78.5% - 0.5px);
+    }
+}
